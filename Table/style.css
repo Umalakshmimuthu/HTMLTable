@@ -1,0 +1,27 @@
+#friends {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#friends td,
+#friends th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#friends tr:nth-child(even) {
+  background-color: #d3cccc;
+}
+
+#friends tr:hover {
+  background-color: #ddd;
+}
+
+#friends th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6b2554;
+  color: white;
+}
